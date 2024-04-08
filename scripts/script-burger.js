@@ -7,3 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+function mostrarMensaje() {
+    alert("¡Registro exitoso! Gracias por unirse al cambio :)");
+    return true;    
+}
