@@ -6,3 +6,4 @@ document.addEventListener('DOMContentLoaded', function () {
         navbar.classList.toggle('active');
     });
 });
+
