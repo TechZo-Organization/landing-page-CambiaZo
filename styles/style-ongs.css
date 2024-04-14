@@ -28,7 +28,6 @@
 .logos-ongs{
     padding-top: 2rem;
     padding-bottom: 2rem;
-    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -39,6 +38,24 @@
 
 .logos-ongs:hover .logos-ongs-slide{
     animation-play-state: paused;
+}
+
+
+.logos-ongs-slide img{
+
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    transition-duration: 0.8s;
+    object-fit:contain;
+    margin: 15px;
+
+    
+}
+
+.logos-ongs-slide img:hover{
+    transform: scale(1.6);
+
 }
 
 @media screen and (max-width: 880px){
