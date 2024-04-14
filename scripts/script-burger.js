@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
     var burgerButton = document.querySelector('.burger-menu');
     var navbar = document.querySelector('.navbar');
   
@@ -10,4 +10,25 @@ document.addEventListener('DOMContentLoaded', function () {
 function mostrarMensaje() {
     alert("¡Registro exitoso! Gracias por unirse al cambio :)");
     return true;    
+}*/
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    var burgerButton = document.querySelector('.burger-menu');
+    var navbar = document.querySelector('.navbar');
+  
+    burgerButton.addEventListener('click', function () {
+        navbar.classList.toggle('active');
+    });
+});
+
+function mostrarMensaje() {
+    Swal.fire({
+        title: "Registro exitoso",
+        text: "Te contactaremos pronto",
+        icon: "success"
+      });
+      return false;
 }
