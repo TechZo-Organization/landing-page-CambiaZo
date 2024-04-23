@@ -110,8 +110,7 @@
 .exchange-objects-container h1{
     font-size: 35px;
     text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    padding: 2.5rem;
     margin: 1rem;
 }
 
@@ -228,7 +227,6 @@
 
     .object-categories-container{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
     }
 
     .objects{
@@ -236,8 +234,8 @@
     }
 
     .category{
-        width: 70%;
-        height: 180px;
+        width: 60%;
+        height: 150px;
     }
 
     .exchange-objects-container button{
@@ -270,4 +268,3 @@
         max-height: 80vh;
     
     }
-}
