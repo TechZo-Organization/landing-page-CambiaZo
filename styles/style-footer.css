@@ -71,12 +71,15 @@
         flex-direction: column;
         justify-content: center;
     }
+
     .row-footer{
         flex-direction: column;
 
     }
     .column-row{
         justify-items: center;
+        padding: 0rem;
+        margin: 1rem;
 
     }
 
@@ -84,10 +87,7 @@
         display: flex;
     }
 
-    .column-row{
-        padding: 0rem;
-        margin: 1rem;
-    }
+ 
 
     .copyright{
         margin: 1rem;
